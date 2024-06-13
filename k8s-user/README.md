@@ -19,7 +19,7 @@ kubectl config set-credentials read-only-user --client-certificate=read-only-use
 kubectl config set-context read-only-user-context --cluster=kubernetes --namespace=default --user=read-only-user --kubeconfig=read-only-user.kubeconfig
 kubectl config use-context read-only-user-context --kubeconfig=read-only-user.kubeconfig
 ```
-## 4 ) change path on kube config by config
+## 4 ) change path by config
 ```
 certificate-authority --> certificate-authority-data => content from : /root/.kube/config
 
